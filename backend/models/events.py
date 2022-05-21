@@ -2,7 +2,7 @@ from db.session import Base
 from sqlalchemy import Column, DateTime, Identity, Integer, Text
 
 
-class EventTable(Base):
+class Events(Base):
     __tablename__ = "events"
 
     id = Column(Integer, Identity(always=True), primary_key=True)

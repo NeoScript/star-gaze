@@ -1,4 +1,4 @@
 # pylint:disable=unused-import
-from backend.models.events import EventTable
+from backend.models.events import Events
 
 from db.session import Base
