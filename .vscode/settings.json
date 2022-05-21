@@ -1,0 +1,7 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.pylintArgs": [
+        "backend",
+        "--rcfile", "${workspaceFolder}/backend/pylintrc"
+    ]
+}
