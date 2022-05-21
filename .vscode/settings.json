@@ -17,7 +17,8 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "**/__pycache__": true,
-        "**.pyc": true
+        "**.pyc": true,
+        "**/.pytest_cache": true,
     },
     "python.testing.pytestArgs": [
         "backend"
