@@ -2,6 +2,9 @@
     "python.linting.enabled": true,
     "python.linting.pylintArgs": [
         "backend",
-        "--rcfile", "${workspaceFolder}/backend/pylintrc"
-    ]
+        "--rcfile",
+        "${workspaceFolder}/backend/pylintrc"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
 }

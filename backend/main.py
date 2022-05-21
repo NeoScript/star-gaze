@@ -9,6 +9,6 @@ def create_app() -> FastAPI:
 app = create_app()
 
 
-@app.get('/')
+@app.get("/")
 def index():
     return {"projectName": "star-gaze"}
